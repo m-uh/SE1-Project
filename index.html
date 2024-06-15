@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>♡ ~ Typing Test!</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+
+  <body>
+    <div class="header">
+      <h1>♡  Speed Typing Test  ♡</h1>
+      <h3 style="color: hsl(263, 29%, 43%)">Can beat your WPM highscore?</h3>
+    </div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <div class="homebar">
+    <nav style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 20px; color:blueviolet;">
+      <a href="index.html">Home</a>
+      &nbsp;
+     <a href="howto.html">How To</a>
+      &nbsp;
+      <a href="resources.html">About & Resources</a>
+    </nav>
+  </div>
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+
+    <div class="wrapper">
+      <input type="text" class="input-field" />
+
+      <p style="color:hsl(263, 48%, 42%); font-size: 17px"> Welcome! To begin your test, start typing the following prompt whenever you’re ready! To reset, press ‘Try Again’.</p>
+      <p style="color:hsl(0, 79%, 71%); font-size: 18px">Good luck!</p>
+      &nbsp;
+
+      <div class="content-box">
+        <div class="typing-text">
+          <p></p>
+        </div>
+        <div class="content">
+          <ul class="result-details">
+            <li class="wpm">
+              <p>WPM :</p>
+              <span>0</span>
+            </li>
+            <li class="cpm">
+              <p>CPM :</p>
+              <span>0</span>
+            </li>
+            <li class="mistake">
+              <p>Mistakes :</p>
+              <span>0</span>
+            </li>
+            <li class="accuracy">
+              <p>Accuracy :</p>
+              <span id="accuracyTag">100%</span>
+            </li>
+            <li class="time">
+              <p>Time Left :</p>
+              <span><b>60</b>s</span>
+            </li>
+          </ul>
+        </div>
+
+        <p></p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+
+        <div class="grid">
+          
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+
+          <label for="mode"> Mode:</label>
+          &nbsp;&nbsp;
+          <select name="mode" id="difficulty-select">
+            <option value="">~~~~~ Select ~~~~~</option>
+            <option value="easy">Easy / Beginner</option>
+            <option value=medium">Medium / Intermediate</option>
+            <option value="hard">Hard / Advanced</option>
+            <option value="veryhard">Very Hard / Pro</option>
+            <option value="random">Random</option>
+          </select>
+          &nbsp;
+           <a href="howto.html">
+            <button style="background-color: hsla(10, 89%, 71%, 0.61); border: none; border-radius: 2px; width: 15px;">?</button> 
+           </a>
+
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+
+          <p></p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+
+          <div class="buttonz2">
+            <button onclick="resetGame()">Try Again</button> 
+          </div>
+
+          <p></p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp; 
+
+
+          <IMG SRC="images/cheer-up-cheer.gif">
+
+        </div>
+
+        <p></p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+      </div>
+    </div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <p> © 2024 Emma Bibb, bibbe@oregonstate.edu - for CS361</p>
+
+    <script src="JS/paragraphs.js"></script>
+    <script src="JS/index.js"></script>
+  </body>
+</html>
